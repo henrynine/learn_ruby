@@ -100,7 +100,6 @@ describe "#factorial" do
   it "computes the factorial of 0" do
     expect(factorial(0)).to eq(1)
   end
-
   it "computes the factorial of 1" do
     expect(factorial(1)).to eq(1)
   end
